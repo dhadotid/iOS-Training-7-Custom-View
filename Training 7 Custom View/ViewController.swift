@@ -9,12 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var customView: TestView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        customView.lbTest.text = "HUAHAHAHAHA ya gitu deh ini custom view ya, hehehe lagi test iseng aja"
     }
-
-
 }
 

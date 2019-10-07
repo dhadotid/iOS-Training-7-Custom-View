@@ -13,6 +13,8 @@
 		15959CC1234B35C50034BAAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15959CBF234B35C50034BAAE /* Main.storyboard */; };
 		15959CC3234B35CE0034BAAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15959CC2234B35CE0034BAAE /* Assets.xcassets */; };
 		15959CC6234B35CE0034BAAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15959CC4234B35CE0034BAAE /* LaunchScreen.storyboard */; };
+		15959CCE234B366C0034BAAE /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15959CCD234B366C0034BAAE /* TestView.xib */; };
+		15959CD0234B36EF0034BAAE /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15959CCF234B36EF0034BAAE /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		15959CC2234B35CE0034BAAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15959CC5234B35CE0034BAAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15959CC7234B35CE0034BAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15959CCD234B366C0034BAAE /* TestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		15959CCF234B36EF0034BAAE /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				15959CC2234B35CE0034BAAE /* Assets.xcassets */,
 				15959CC4234B35CE0034BAAE /* LaunchScreen.storyboard */,
 				15959CC7234B35CE0034BAAE /* Info.plist */,
+				15959CCD234B366C0034BAAE /* TestView.xib */,
+				15959CCF234B36EF0034BAAE /* TestView.swift */,
 			);
 			path = "Training 7 Custom View";
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15959CCE234B366C0034BAAE /* TestView.xib in Resources */,
 				15959CC6234B35CE0034BAAE /* LaunchScreen.storyboard in Resources */,
 				15959CC3234B35CE0034BAAE /* Assets.xcassets in Resources */,
 				15959CC1234B35C50034BAAE /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15959CD0234B36EF0034BAAE /* TestView.swift in Sources */,
 				15959CBE234B35C50034BAAE /* ViewController.swift in Sources */,
 				15959CBA234B35C50034BAAE /* AppDelegate.swift in Sources */,
 				15959CBC234B35C50034BAAE /* SceneDelegate.swift in Sources */,
@@ -294,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yudha.Training-7-Custom-View";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yudha.Training-7-Custom-View";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

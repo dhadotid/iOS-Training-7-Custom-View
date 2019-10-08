@@ -15,25 +15,26 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="335" height="110"/>
+            <rect key="frame" x="0.0" y="0.0" width="385" height="97"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7H2-fy-Xiv">
-                    <rect key="frame" x="16" y="15" width="303" height="20.5"/>
+                    <rect key="frame" x="10" y="10" width="365" height="77"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="7H2-fy-Xiv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="87g-XE-7PM"/>
-                <constraint firstItem="7H2-fy-Xiv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="Ynp-qq-xVR"/>
-                <constraint firstAttribute="trailing" secondItem="7H2-fy-Xiv" secondAttribute="trailing" constant="16" id="lIJ-v7-kvg"/>
+                <constraint firstItem="7H2-fy-Xiv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="8nE-f4-xhc"/>
+                <constraint firstAttribute="trailing" secondItem="7H2-fy-Xiv" secondAttribute="trailing" constant="10" id="EqI-gH-Hls"/>
+                <constraint firstItem="7H2-fy-Xiv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="Ln9-Hn-drn"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="7H2-fy-Xiv" secondAttribute="bottom" constant="10" id="S7F-7P-tvu"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <point key="canvasLocation" x="-231" y="4"/>
+            <point key="canvasLocation" x="-194.92753623188406" y="-1.0044642857142856"/>
         </view>
     </objects>
 </document>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150DE6A7234C3DB10091D202 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150DE6A6234C3DB10091D202 /* CustomTableViewCell.xib */; };
+		150DE6A9234C3ED60091D202 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DE6A8234C3ED60091D202 /* CustomTableViewCell.swift */; };
 		15959CBA234B35C50034BAAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15959CB9234B35C50034BAAE /* AppDelegate.swift */; };
 		15959CBC234B35C50034BAAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15959CBB234B35C50034BAAE /* SceneDelegate.swift */; };
 		15959CBE234B35C50034BAAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15959CBD234B35C50034BAAE /* ViewController.swift */; };
@@ -15,9 +17,13 @@
 		15959CC6234B35CE0034BAAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15959CC4234B35CE0034BAAE /* LaunchScreen.storyboard */; };
 		15959CCE234B366C0034BAAE /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15959CCD234B366C0034BAAE /* TestView.xib */; };
 		15959CD0234B36EF0034BAAE /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15959CCF234B36EF0034BAAE /* TestView.swift */; };
+		1597855A234C49E300322624 /* DynamicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15978558234C49E300322624 /* DynamicTableViewCell.swift */; };
+		1597855B234C49E300322624 /* DynamicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15978559234C49E300322624 /* DynamicTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		150DE6A6234C3DB10091D202 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		150DE6A8234C3ED60091D202 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		15959CB6234B35C50034BAAE /* Training 7 Custom View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Training 7 Custom View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15959CB9234B35C50034BAAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15959CBB234B35C50034BAAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +34,8 @@
 		15959CC7234B35CE0034BAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15959CCD234B366C0034BAAE /* TestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
 		15959CCF234B36EF0034BAAE /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		15978558234C49E300322624 /* DynamicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewCell.swift; sourceTree = "<group>"; };
+		15978559234C49E300322624 /* DynamicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,10 @@
 				15959CC7234B35CE0034BAAE /* Info.plist */,
 				15959CCD234B366C0034BAAE /* TestView.xib */,
 				15959CCF234B36EF0034BAAE /* TestView.swift */,
+				150DE6A6234C3DB10091D202 /* CustomTableViewCell.xib */,
+				150DE6A8234C3ED60091D202 /* CustomTableViewCell.swift */,
+				15978558234C49E300322624 /* DynamicTableViewCell.swift */,
+				15978559234C49E300322624 /* DynamicTableViewCell.xib */,
 			);
 			path = "Training 7 Custom View";
 			sourceTree = "<group>";
@@ -134,7 +146,9 @@
 				15959CCE234B366C0034BAAE /* TestView.xib in Resources */,
 				15959CC6234B35CE0034BAAE /* LaunchScreen.storyboard in Resources */,
 				15959CC3234B35CE0034BAAE /* Assets.xcassets in Resources */,
+				150DE6A7234C3DB10091D202 /* CustomTableViewCell.xib in Resources */,
 				15959CC1234B35C50034BAAE /* Main.storyboard in Resources */,
+				1597855B234C49E300322624 /* DynamicTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +161,8 @@
 			files = (
 				15959CD0234B36EF0034BAAE /* TestView.swift in Sources */,
 				15959CBE234B35C50034BAAE /* ViewController.swift in Sources */,
+				150DE6A9234C3ED60091D202 /* CustomTableViewCell.swift in Sources */,
+				1597855A234C49E300322624 /* DynamicTableViewCell.swift in Sources */,
 				15959CBA234B35C50034BAAE /* AppDelegate.swift in Sources */,
 				15959CBC234B35C50034BAAE /* SceneDelegate.swift in Sources */,
 			);

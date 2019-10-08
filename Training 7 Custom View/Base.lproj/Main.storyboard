@@ -15,35 +15,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JaU-LD-UYJ" customClass="TestView" customModule="Training_7_Custom_View" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="46" width="374" height="123"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JaU-LD-UYJ" customClass="TestView" customModule="Training_7_Custom_View" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="177"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E6L-l1-OF4">
-                                <rect key="frame" x="237" y="555" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="txB-3m-xAF">
+                                <rect key="frame" x="0.0" y="177" width="375" height="490"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="490" id="Pig-Ma-Gbk"/>
+                                </constraints>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="JaU-LD-UYJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="46" id="0WH-Re-pJr"/>
-                            <constraint firstAttribute="bottom" secondItem="JaU-LD-UYJ" secondAttribute="bottom" constant="498" id="400-Tu-qq6"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="E6L-l1-OF4" secondAttribute="bottom" constant="91" id="8Sn-a9-TxP"/>
-                            <constraint firstItem="JaU-LD-UYJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GDy-6x-yZe"/>
-                            <constraint firstItem="JaU-LD-UYJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IQn-rU-2xf"/>
-                            <constraint firstItem="E6L-l1-OF4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="237" id="SfL-uZ-wC7"/>
+                            <constraint firstItem="txB-3m-xAF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="43g-ju-61V"/>
+                            <constraint firstItem="JaU-LD-UYJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="51I-bz-dh7"/>
+                            <constraint firstItem="txB-3m-xAF" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="F73-6W-Omd"/>
+                            <constraint firstItem="txB-3m-xAF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="KBq-dV-CAW"/>
+                            <constraint firstItem="txB-3m-xAF" firstAttribute="top" secondItem="JaU-LD-UYJ" secondAttribute="bottom" id="hUi-0u-SdH"/>
+                            <constraint firstItem="JaU-LD-UYJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qVY-jg-hkX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JaU-LD-UYJ" secondAttribute="trailing" id="uc8-Zk-LV9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="customView" destination="JaU-LD-UYJ" id="m4h-NX-Zts"/>
+                        <outlet property="tblContent" destination="txB-3m-xAF" id="g83-3T-M0N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
+            <point key="canvasLocation" x="136.80000000000001" y="129.08545727136433"/>
         </scene>
     </scenes>
 </document>
